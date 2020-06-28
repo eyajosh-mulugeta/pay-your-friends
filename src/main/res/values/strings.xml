@@ -1,0 +1,176 @@
+<resources>
+    <!--Application -->
+    <string name="app_name">PYF</string>
+
+
+    <!--Splash Screen -->
+    <string name="copyright">&#169; 2017 Pay Your Friends</string>
+
+
+    <string name="sign_up">SIGN UP</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="start">Start</string>
+    <string name="title_slide1">Fast</string>
+    <string name="desc_slide1">Pay your friends on the go.</string>
+    <string name="title_slide2">Less Hassle</string>
+    <string name="desc_slide2">No papers, no problems.</string>
+    <string name="title_slide3">Payment Notifications</string>
+    <string name="desc_slide3">Your friend will get a notification when payment is made</string>
+
+    <!-- Sign In Activity -->
+    <string name="hintUsername">Username</string>
+    <string name="hintPassword">Password</string>
+    <string name="forgotPassword"><u>Forgot Password?</u></string>
+    <string name="rememberMe">Remember me</string>
+    <string name="titleRegister">Register</string>
+
+
+    <!-- Sign Up Activity Slide 1 -->
+    <string name="personalInformation">Personal Information</string>
+    <string name="hintFirstName">First Name</string>
+    <string name="hintLastName">Last Name</string>
+    <string name="hintPhoneNumber">Phone Number</string>
+    <string name="hintEmailAddress">Email Address</string>
+    <string name="hintCountry">Country</string>
+    <string name="hintCity">City</string>
+
+    <string name="country_prompt">Choose a country</string>
+    <string name="city_prompt">Choose a city</string>
+    <string name="btnNext">NEXT</string>
+
+    <!--List of country  -->
+    <string-array name="country_name">
+        <item>Ethiopia</item>
+    </string-array>
+
+
+    <!--List of Ethiopian cities  -->
+    <string-array name="ethiopia_cities_arrays">
+        <item>Addis Ababa</item>
+        <item>Dire Dawa</item>
+    </string-array>
+
+    <!--List of Kenyan cities  -->
+    <string-array name="kenya_cities_arrays">
+        <item>Nairobi</item>
+        <item>Mombasa</item>
+    </string-array>
+
+
+    <!--List of Ethiopian banks  -->
+    <string-array name="ethiopian_banks_arrays">
+        <item>Commercial Bank of Ethiopia</item>
+        <item>Dashen Bank</item>
+    </string-array>
+
+    <!--List of Kenyan banks  -->
+    <string-array name="kenyan_banks_arrays">
+        <item>Barclays Bank of Kenya Limited</item>
+        <item>Citibank N.A Kenya</item>
+    </string-array>
+
+
+    <!-- Sign Up Activity Slide 2 -->
+    <string name="accountInformation">Account Information</string>
+    <string name="signUpHintUsername">Username</string>
+    <string name="signUpHintPassword">Password</string>
+    <string name="signUpHintConfirmPassword">Confirm Password</string>
+
+    <string name="bankInformation">Bank Information</string>
+    <string name="signUpHintAccountNumber">Account Number</string>
+    <string name="btnSignUp">SIGN UP</string>
+
+
+    <!-- Recover Password Activity -->
+    <string name="titleRecoverPassword">Recover Password</string>
+    <string name="btnRecover">RECOVER</string>
+    <string name="needMoreHelp"><u>Need More Help?</u></string>
+
+    <!-- Support Activity -->
+    <string name="titleSupport">Support</string>
+
+
+    <!-- Request Loan Activity -->
+    <string name="titleRequestLoan">Request Loan</string>
+    <string name="hintLoanAmount">Loan Amount</string>
+    <string name="hintCurrency">Currency</string>
+    <string name="hintPaymentMode">Payment Mode</string>
+    <string name="hintAutoPaymentMode">Auto Payment Mode</string>
+    <string name="hintTotalPaymentDate">Total Payment Date</string>
+
+    <!-- RequestLoanFragment1 -->
+    <string name="btnRequestLoan">REQUEST LOAN</string>
+
+
+
+    <!-- Loan Requests Activity -->
+
+
+    <!-- Debt Details Activity -->
+    <string name="titleDebtDetails">Debt Details</string>
+
+
+
+    <!-- Specific Loan Request Activity -->
+    <string name="titleSpecificLoanRequest">Specific Loan Request</string>
+
+
+    <!-- Edit Profile Activity -->
+    <string name="titleEditProfile">Edit Profile</string>
+
+
+    <!-- Settings Activity -->
+    <string name="titleSettings">Settings</string>
+    <string name="editProfile">Edit Profile</string>
+    <string name="changePassword">Change Password</string>
+    <string name="costs">Costs</string>
+    <string name="deactivateAccount">Deactivate Account</string>
+
+    <!-- Change Password Activity -->
+    <string name="titleChangePassword">Change Password</string>
+    <string name="hintCurrentPassword">Current Password</string>
+    <string name="hintNewPassword">New Password</string>
+    <string name="hintConfirmPassword">Confirm Password</string>
+    <string name="change">Change</string>
+
+    <!-- Privacy Policy Activity -->
+    <string name="titlePrivacyPolicy">Privacy Policy</string>
+
+
+    <!-- About Activity -->
+    <string name="titleAbout">About PYF</string>
+    <string name="pyfVersion"><b>Version 1.0</b></string>
+    <string name="privacyPolicy"><u>Privacy Policy</u></string>
+
+    <!-- Request On Extension Activity -->
+    <string name="titleRequestOnExtension">Request On Extension</string>
+    <string name="currentTotalPaymentDate">Current Total Payment Date</string>
+    <string name="enterNewTotalPaymentDate">Enter New Total Payment Date</string>
+    <string name="hintNewTotalPaymentDate">New Total Payment Date</string>
+    <string name="title_activity_left_navigation">LeftNavigationActivity</string>
+
+    <!-- Left Navigation -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="userEmail">Email</string>
+    <string name="userFullName">Full Name</string>
+    <string name="titleNavRequestLoan">Request Loan</string>
+    <string name="titleNavLoanRequests">Loan Requests</string>
+    <string name="titleNavBalance">Balance</string>
+    <string name="titleNavProfile">Profile</string>
+    <string name="titleNavSocialize">Socialize</string>
+    <string name="titleNavSettings">Settings</string>
+    <string name="titleNavAbout">About</string>
+    <string name="titleNavLogOut">Log Out</string>
+
+
+    <!-- Single Debt Activity -->
+    <string name="titleSingleDebt">Debt Details</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

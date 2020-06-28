@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gebeya.jo.loginregister.activities.RegisterActivity"
+    tools:layout_editor_absoluteY="81dp"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteX="0dp">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/etUsername"
+        android:layout_marginRight="0dp"
+        app:layout_constraintRight_toRightOf="@+id/etUsername"
+        app:layout_constraintHorizontal_bias="1.0" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="last name"
+        android:id="@+id/etLastName"
+        />
+
+    <EditText
+        android:id="@+id/lastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="LastName"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/lastName"
+        android:layout_marginRight="0dp"
+        app:layout_constraintRight_toRightOf="@+id/lastName"
+        app:layout_constraintHorizontal_bias="1.0" />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="username"
+        android:inputType="text"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/etUsername"
+        android:layout_marginRight="0dp"
+        app:layout_constraintRight_toRightOf="@+id/etUsername"
+        app:layout_constraintHorizontal_bias="1.0" />
+
+
+    <EditText
+        android:id="@+id/etAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Age"
+        android:inputType="number"
+        tools:layout_editor_absoluteY="183dp"
+        android:layout_marginRight="0dp"
+        app:layout_constraintRight_toRightOf="@+id/bRegister"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/bRegister" />
+
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteY="130dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/etAge"
+        android:layout_marginRight="0dp"
+        app:layout_constraintRight_toRightOf="@+id/etAge"
+        app:layout_constraintHorizontal_bias="1.0" />
+
+
+    <Button
+        android:id="@+id/bRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="256dp" />
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_intro"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.IntroActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <LinearLayout
+        android:id="@+id/layoutDots"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dots_height"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/dots_bottom_margin"
+        android:gravity="center"
+        android:orientation="horizontal"
+        />
+
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:text="@string/sign_up"
+        android:onClick="btnSignUpClick"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="30dp"
+        android:paddingLeft="35dp"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        android:paddingRight="35dp"
+
+        />
+
+    <Button
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        android:id="@+id/btnSignIn"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:text="@string/sign_in"
+        android:onClick="btnSignInClick"
+        android:textColor="@android:color/black" />
+</RelativeLayout>
+

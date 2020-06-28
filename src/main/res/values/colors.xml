@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBrand1">#e15854</color>
+    <color name="black">#303030</color>
+
+    <!-- Screens background -->
+    <color name="bg_screen1">#b12515</color>
+    <color name="bg_screen2">#FFBB00</color>
+    <color name="bg_screen3">#74a443</color>
+
+    <!-- dots active colors -->
+    <color name="dot_active">#e35854</color>
+
+
+    <!-- dots inactive colors -->
+    <color name="dot_inactive">#626262</color>
+
+    <!-- general border style -->
+    <color name="colorBorder">#666666</color>
+
+    <!-- EditText border -->
+    <color name="colorEditTextBorder">#e6c7d5</color>
+    <color name="Transparent">#FFFFFF</color>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/requestLoan"
+            android:icon="@drawable/nav_ico_request_loan"
+            android:title="@string/titleNavRequestLoan" />
+        <item
+            android:id="@+id/loanRequests"
+            android:icon="@drawable/nav_ico_loan_requests"
+            android:title="@string/titleNavLoanRequests" />
+        <item
+            android:id="@+id/balance"
+            android:icon="@drawable/nav_ico_balance"
+            android:title="@string/titleNavBalance" />
+    </group>
+
+    <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/profile"
+                android:icon="@drawable/nav_ico_profile"
+                android:title="@string/titleNavProfile" />
+            <item
+                android:id="@+id/socialize"
+                android:icon="@drawable/nav_ico_socialize"
+                android:title="@string/titleNavSocialize" />
+            <item
+                android:id="@+id/settings"
+                android:icon="@drawable/nav_ico_settings"
+                android:title="@string/titleNavSettings" />
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/nav_ico_about"
+                android:title="@string/titleNavAbout" />
+            <item
+                android:id="@+id/logOut"
+                android:icon="@drawable/nav_ico_log_out"
+                android:title="@string/titleNavLogOut" />
+    </group>
+</menu>
